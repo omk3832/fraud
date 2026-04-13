@@ -25,5 +25,4 @@ public class FraudController {
     public Mono<FraudResponse> check(@Valid @RequestBody FraudRequest req) {
         return service.process(req);
     }
-    
 }
